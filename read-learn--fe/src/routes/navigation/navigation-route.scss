@@ -1,0 +1,27 @@
+@import '../../scss/variables.scss';
+
+.main-nav {
+  background-color: $color-primary;
+  margin-bottom: 3rem;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  li {
+    margin: 0 10px;
+    a,
+    button {
+      display: inline-block;
+      padding: 20px 30px;
+      color: $color-secondary;
+      text-decoration: none;
+      background: none;
+      border: none;
+      font-size: 1rem;
+      font-weight: 400;
+      &:hover {
+        color: $color-black;
+      }
+    }
+  }
+}
